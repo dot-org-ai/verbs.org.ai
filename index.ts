@@ -15,6 +15,23 @@
 // Re-export types
 export type { Verb } from './types'
 
+// Re-export conjugation functions
+export {
+  toAction,
+  toActivity,
+  toEvent,
+  toInverse,
+  toThirdPerson,
+  toSubjectNoun,
+  toObjectNoun,
+  isPastTense,
+  conjugate,
+  IRREGULAR_PAST_TENSE,
+  IRREGULAR_THIRD_PERSON,
+  IRREGULAR_SUBJECT_NOUNS,
+  IRREGULAR_OBJECT_NOUNS,
+} from './conjugation'
+
 // Import types for runtime use
 import type { Verb } from './types'
 
