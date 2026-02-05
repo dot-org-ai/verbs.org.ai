@@ -26,8 +26,5 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/org-ai/verbs.org.ai.git"
-  },
-  "dependencies": {
-    "schema.org.ai": "workspace:*"
   }
 }
