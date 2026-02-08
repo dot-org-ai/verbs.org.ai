@@ -41,7 +41,7 @@ import type { Verb } from './types'
  */
 export const things: Promise<(Verb)[]> = fetch('https://verbs.org.ai/things.json')
   .then(res => res.json())
-  .catch(() => [])
+  .catch((): Verb[] => [])
 
 /**
  * Get a specific Verb by ID
